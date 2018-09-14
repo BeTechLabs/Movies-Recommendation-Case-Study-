@@ -3,7 +3,7 @@
 - [Table of Contents](#heading)
   * [Introduction](##Introduction)
   * [Dataset](##Dataset)
-  * [Models](#models)
+  * [Models](##Models)
     + [Content Based Filtering](#Content-Based-Filtering)
     + [Collaborative Filtering](#Collaborative-Filtering)
         + [Matrix Factorization](#Matrix-Factorization)
@@ -24,18 +24,9 @@ Two most ubiquitous types of personalized recommendation systems are **Content-B
 
 In this repository, We will attempt at implementing these two systems to recommend movies and evaluate them to see which one performs better.
 
-After reading this post you will know:
-- About the MovieLens dataset problem for recommender system.
-- How to load and process the data.
-- How to do exploratory data analysis.
-- The 2 different types of recommendation engines.
-- How to develop a content-based recommendation model based on movie genres.
-- How to develop a collaborative filtering model based on user ratings.
-- Alternative approach to improve existing models.
-
 **Let’s get started ..**
 
-##Dataset
+## Dataset
 
 One of the most common datasets that is available on the internet for building a Recommender System is the [MovieLens DataSet](https://grouplens.org/datasets/movielens/). This version of the dataset that I'm working with (1M) contains 1,000,209 anonymous ratings of approximately 3,900 movies made by 6,040 MovieLens users who joined MovieLens in 2000.
 
